@@ -37,12 +37,10 @@ public class T3EJ_SonSimilares {
 			int digitoN2 = n2%10;
 			
 			loContiene = contieneDigito(n1, digitoN2);
-
 			
 			n2 = n2/10;
 		}
-		
-		
+				
 		return loContiene;
 	}
 
